@@ -93,6 +93,9 @@ func main() {
 		intVal1, err := strconv.ParseInt("1234", 0, 64) // -> primero lo que queremos convertir en int , segundo desde donde empieza y cuanto de grade es el size en este caso 64 bits
 		fmt.Println(err)
 		fmt.Printf("type: %T, value: %d\n", intVal1, intVal1)
+
+		floatVar1, _ := strconv.ParseFloat("-11.2", 64)
+		fmt.Printf("type: %T, value: %f\n", floatVar1, floatVar1) //Con el _ hacemos que no veamos el error, se envia pero no hacemos nada.
 	}
 
 }
