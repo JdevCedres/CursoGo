@@ -49,4 +49,46 @@ func main() {
 	fmt.Println()
 	fmt.Println("Condicionales IF")
 
+	yearsOld = 20
+	if yearsOld > 18 {
+		fmt.Printf("%d is higher than 18\n", yearsOld)
+	}
+
+	boolVar := true
+	if boolVar {
+		fmt.Println("The variable is true")
+	} else {
+		fmt.Println("The variable is false")
+	}
+
+	number := 0
+	if number == 1 {
+		fmt.Println("The number is one")
+	} else if number == 2 {
+		fmt.Println("The number is two")
+	} else if number == 3 {
+		fmt.Println("The number is three")
+	} else {
+		fmt.Println("The number is unknown")
+	}
+
+	switch number {
+	case 1:
+		fmt.Println("The number is one")
+	case 2:
+		fmt.Println("The number is two")
+	case 3:
+		fmt.Println("The number is three")
+	default:
+		fmt.Println("The number is unknown")
+	}
+
+	switch {
+	case number < 0:
+		fmt.Println("The number is negative")
+	case number > 0:
+		fmt.Println("The number is positive")
+	default:
+		fmt.Println("The number is zero")
+	}
 }
