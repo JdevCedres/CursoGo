@@ -62,13 +62,14 @@ func main() {
 	}
 
 	number := 0
-	if number == 1 {
+	switch number {
+	case 1:
 		fmt.Println("The number is one")
-	} else if number == 2 {
+	case 2:
 		fmt.Println("The number is two")
-	} else if number == 3 {
+	case 3:
 		fmt.Println("The number is three")
-	} else {
+	default:
 		fmt.Println("The number is unknown")
 	}
 
