@@ -13,7 +13,7 @@ func main() {
 	if license && age >= 15 {
 		fmt.Println("Puede seguir avanzando")
 	} else if !license || age <= 15 {
-		fmt.Println("No puede seguir circulando")
+		fmt.Println("No puede seguir circulando siempre y cuando no tenga licencia o sea menor de edad")
 
 	}
 }
