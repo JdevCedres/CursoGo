@@ -39,6 +39,7 @@ func main() {
 	fmt.Println("Sice: ", len(mySlice))
 
 	fmt.Println(&myArrayVar[2])
+
 	fmt.Println(&mySlice[1])
 
 	fmt.Println(myArrayVar)

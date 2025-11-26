@@ -16,4 +16,12 @@ func main() {
 		fmt.Println("No puede seguir circulando siempre y cuando no tenga licencia o sea menor de edad")
 
 	}
+
+	fmt.Println("Tarea  2")
+	array := [5]int{4, 2, 5, 6, 7}
+	for i := range array {
+		slice1 := array[i]
+		fmt.Println(slice1 + 20)
+	}
+
 }
